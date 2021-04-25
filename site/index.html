@@ -1,22 +1,95 @@
 <!doctype html>
-<html lang= de>
+<html lang="de">
 <head>
 	<meta charset=utf-8>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Schach- für Grünschnäbel</title>
+	<title>Schach für Grünschnäbel</title>
+	<style>
+h1 {
+	font-style:italic;
+	font-size:100px;
+	color: darkgreen;
+	text-align: center;
+
+}
+h3 {
+	font-size:50px;
+	font-style:italic;
+	text-align: center;
+	color: white;
+	background-color:darkgreen;
+}
+h2{
+	font-size:40px;
+	color: darkgreen;
+	text-align: center;
+}
+
+
+.center{
+	text-align: center;
+}
+p{
+	color: solid blue;
+	font-style:;
+	font-size:20px;
+}
+
+div li {
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration:none;
+	background-color:darkgreen;
+	color:white;
+	font-style:italic;
+	border:1px solid blue;
+	display:inline-block;
+	width:200px;
+	margin-bottom:10px;
+	text-align:center;
+	
+}
+a:hover, a:active {
+	background-color: white;
+	color: green;
+	cursor:pointer;
+}
+body {
+	background-color: palegreen;
+	text-align:center;
+}
+
+
+
+
+.highlight{
+	background-color:darkgreen;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+	</style>
 	</head>
 	<body>
 		<header>
 		Diese Seite hier ist nur ein Test! Hier wurden viele HTML Kompetenzen genutzt um sie zu prüfen und anzuwenden.Um auf die index.html der Seite zuzugreifen besuchen Sie die Seite:
-		<nav><a href=
-		"https://github.com/momo-stack/coursera-test.git" target="_blank" title="Visit Github!">https://github.com/momo-stack/coursera-test.git</a>
-			</header></nav>
+		<nav>
+		<a href=
+		"https://github.com/momo-stack/coursera-test.git" target="_blank" title="Visit Github!" >GitHub-Page</a>
+			</nav>
+		</header>
 	<hr>
 	<br>
 	
 		
 		<section>
-			<h1 id= "#top"><b>Schach</b></h1>
+			<h1 id= "#top"><u><b>Schach</b></u></h1>
 			<hr>
 		<p>
 		Schach ist ein Brettspiel. In Europa ist es das beliebteste Spiel, das oft auch in Vereinen gespielt wird. Auf der Welt spielen über 600 Millionen&nbsp;Menschen&nbsp;Schach.
@@ -29,9 +102,9 @@
 
 
 <nav>
-	<div>Inhaltsverzeichnis
-
-		<ol>
+	<span class="highlight">Inhaltsverzeichnis</span>
+<div>
+		<ul class="center">
 			<li><a href="#section1">Woher kommt das Spiel?</a></li>
 				<li><a href="#section2">Wie wird es gespielt?</a></li>
 					<li><a href="#section3">Welche Figuren gibt es?</a></li>
@@ -41,15 +114,15 @@
 							<li><a href="#section6">Wer sind die wirklich guten Spieler?</a></li>
 								<li><a href="#section7">Kann man mit Schach Geld verdienen?</a></li>
 								<li><a href="#section8">Elo-Rating</a></li>
-							</ol>
+							</ul>
 						</div>
 					</nav>
 						<br>
 
-
-<section id= "section1">
-<h2>Woher kommt das Spiel?</h2>
 <hr>
+<section id= "section1">
+<h3><u>Woher kommt das Spiel?</u></h3>
+
 <p>
 Das Spiel wurde in Indien als Chaturanga erfunden, vor über 1400 Jahren. Damals hießen zum Beispiel die Türme noch Streitwagen und der König hieß Radscha. Die Dame hieß Mantri, das war ein weiser Berater oder Minister, und sie durfte pro Zug nur ein Feld weit gehen.
 </p>
@@ -65,10 +138,10 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 </p>
 </section>
 <br>
-
-<section id= "section2">
-<h2>Wie wird es gespielt?</h2>
 <hr>
+<section id= "section2">
+<h3><u>Wie wird es gespielt?</u></h3>
+
 <p>
 	Beim Schach spielen zwei Spieler mit einem Brett mit 64 Feldern. Der eine Spieler fängt mit 16 weißen Figuren an, der andere mit 16 schwarzen. Weiß darf immer anfangen.
 </p>
@@ -80,9 +153,10 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 </p>
 </section>
 <br>
+<hr>
 <section id= "section3">
-	<h2>Welche Figuren gibt es?</h2>
-	<hr>
+	<h3><u>Welche Figuren gibt es?</u></h3>
+	
 	<p>Jeder Spieler hat zwei Türme. Einen Turm darf man so viele Felder weit ziehen wie man will, waagerecht oder senkrecht. Die beiden Läufer spielen ähnlich, aber immer nur schräg, also diagonal. Einer der Läufer bleibt somit immer auf den schwarzen Feldern, der andere auf den weißen.
 	</p>
 	<p>Die stärkste Figur ist die Dame. Sie darf so wie die Türme und Läufer gezogen werden, also waagerecht, senkrecht und diagonal, und so weit wie man will. Der König darf ein Feld weiter gehen, in jede Richtung.
@@ -95,16 +169,18 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 	Ein Bauer gilt als eher schwach. Aber gerade Bauern, die einander decken, können sehr wichtig im Spiel werden. Erreicht ein Bauer die letzte Felderreihe am Brettrand des Gegners, dann darf der Spieler des Bauern den Bauern in eine Figur seiner Wahl umtauschen.
 	</p>
 </section>
+<hr>
 <br>
 <aside id="aside1">
-	<h3>Schachbrett</h3>
-	<img src= "Chess.png">
+	<h4><u>Schachbrett</u></h4>
+	<img src= "Chess.png" width="300" height="350" alt="Das ist ein Schachbrettkonstilation">
 	<p>Die Grundstellung zu Beginn eines Spiels. Die Figuren in der untersten Reihe heißen von links nach rechts: Turm, Springer, Läufer, König, Dame, Läufer, Springer und Turm. In der Reihe vor ihnen stehen die Bauern. Mit den Zahlen und Buchstaben benennt man die Felder: Der weiße König steht zum Beispiel anfangs auf dem Feld e1.
 	</p>
+</aside>
 <br>
-<section id= "section4">
-<h2>Wie gewinnt man ein Spiel?</h2>
 <hr>
+<section id= "section4">
+<h3><u>Wie gewinnt man ein Spiel?</u></h3>
 
 <p>
 	Ein guter Spieler kann viele Züge im Voraus überlegen. Er geht im Kopf durch, welche Figuren er wie bewegen kann und wie dann der Gegner spielen würde. Allerdings gibt es im Schach viele mögliche Züge: Schon nach je vier Zügen gibt es Billionen von Möglichkeiten.
@@ -121,10 +197,10 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 </p>
 </section>
 <br>
-
+<hr>
 <section id= "section5">
-<h2>Wie spielt man ohne einen zweiten Menschen?</h2>
-	<hr>
+<h3><u>Wie spielt man ohne einen zweiten Menschen?</u></h3>
+	
 	<p>
 		Schachspieler standen schon immer vor dem Problem, dass sie keinen Partner zum Spielen hatten, oder keinen guten Spieler. Sie spielten zum Beispiel Fernschach mit jemandem, der weit weg wohnte. Mit Briefen schrieben sie sich, welchen Zug sie spielen. Es gibt eine bestimmte Schreibweise mithilfe der Zahlen und Buchstaben am Feldrand, mit der man das einfach mitteilt.
 	</p>
@@ -136,10 +212,10 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 	</p>
 </section>
 	<br>
-
+<hr>
 	<section id= "section6">
-	<h2>Wer sind die wirklich guten Spieler?</h2>
-	<hr>
+	<h3><u>Wer sind die wirklich guten Spieler?</u></h3>
+	
 	<p>
 		An vielen Orten gibt es Schachvereine, in denen man üben und Wettkämpfe austragen kann. Wettkämpfe oder Turniere gab es schon vor Jahrhunderten. Als erster Weltmeister, der allgemein anerkannt wurde, galt Wilhelm Steinitz. Steinitz hat eine neue Art des Spielens erdacht: Man sollte nicht mehr stürmisch einfach so angreifen, sondern nach klugen Grundregeln spielen. Schach sollte also wissenschaftlicher werden.
 	</p>
@@ -157,10 +233,10 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 	</p>
 </section>
 <br>
-
-<section id= "section7">
-<h2>Kann man mit Schach Geld verdienen?</h2>
 <hr>
+<section id= "section7">
+<h3><u>Kann man mit Schach Geld verdienen?</u></h3>
+
 <p>
 	Wer wirklich gut Schach können will, muss dafür viel Zeit aufbringen: Mehrere Stunden pro Tag muss man spielen, üben und lernen. Darum haben sich Spieler überlegt, wie sie mit ihrem Sport Geld verdienen können, um sich die Zeit dafür leisten zu können
 </p>
@@ -172,25 +248,27 @@ Vom indischen Schach wurden auch andere Varianten abgeleitet. In China gibt es d
 </p>
 </section>
 <br>
+<hr>
 <section id= "section8">
-<h2>Elo -Rating</h2>
-	<hr>
+<h3><u>Elo -Rating</u></h3>
+	
 	<p><u>&gt;2699</u></p>
-		<div>Spieler mit einer derart hohen Elo Zahl werden beim Schach als Super-Großmeister bezeichnet.</div>
+		<div class="center">Spieler mit einer derart hohen Elo Zahl werden beim Schach als Super-Großmeister bezeichnet.</div>
 		<p><u>1600-1799</u></p>
-				<div>	Hierbei handelt es sich beim Schach um Amateure der Klasse B. Versierte Freizeitspieler können durchaus diese Spielstärke erreichen.</div>
+				<div class="center">Hierbei handelt es sich beim Schach um Amateure der Klasse B. Versierte Freizeitspieler können durchaus diese Spielstärke erreichen.</div>
 				<p><u>&lt;1000</u></p>
-					<div>Anfänger verfügen beim Schach meistens über einen Elo-Wert unter 1000.</div>
+					<div class="center">Anfänger verfügen beim Schach meistens über einen Elo-Wert unter 1000.</div>
 				</section>
-				<a href="#top"><div>Klicken Sie hier um nach oben zu gelangen!</div></a>
+				<a href="#top"><div class="center">Klicken Sie hier um nach oben zu gelangen!</div></a>
 				<br>
 				<hr>
 				<section id="section9">
+					<h2><u> Lerne und Spiele Jetzt Schach auf Chess.com</u></h2>
 					<nav>
-					<h2> Lerne und Spiele Jetzt Schach auf Chess.com </h2>
-					<div><a href="https://www.chess.com/home" target="_blank">https://www.chess.com/home</a></div>
-					<div><a href="https://www.chess.com/home" target="_blank"><img src="Chess.com.png"></a></div>
+					<div class="center"><a href="https://www.chess.com/home" target="_blank">Chess.com</a></div>
+					<div class="center"><a href="https://www.chess.com/home" target="_blank"><img src="Chess.com.png" twidth="411" height="122" alt=" Das ist ein Logo von Chess.com, die beim Anlicken zu der www.chess.com Seite führt."></a></div>
 				</nav>
+			</section>
 					<hr>
 
 
