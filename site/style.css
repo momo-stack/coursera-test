@@ -32,14 +32,25 @@ a:hover, a:active {
 	cursor:pointer;
 }
 
-body {
+/*body {
 	background-color: palegreen;
 	text-align:center;
 	font-family:"Verdana", sans-serif;
 	padding:40px;
 	border: 20px solid black;
 	margin:40px;
-	font-style:;
+	box-sizing: border-box;*/
+
+article {
+	background-color: palegreen;
+	text-align:center;
+	font-family:"Verdana", sans-serif;
+	padding:40px;
+	border: 20px solid black;
+	margin:40px;
+	box-sizing: content-box;
+
+}
 }
 h1 {
 	font-style:italic;
@@ -51,7 +62,7 @@ h1 {
 h3 {
 	font-size:50px;
 	font-style:italic;
-	text-align: center;
+	text-align:center;
 	color: white;
 	background-color:darkgreen;
 }
@@ -72,4 +83,87 @@ p{
 	font-size:20px;
 	font-weight:bold;
 }
+#section1 {
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
 
+#section2{
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+
+#section3{
+    background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+#aside1{
+
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+	float: left ;
+}
+#section4{
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+#section5{
+background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+#section6{
+background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+#section7{
+background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+#section8{
+background-color:white;
+	border:1px solid black;
+	padding:10px;
+}
+footer {
+	background-color: palegreen;
+	text-align:center;
+	font-family:"Verdana", sans-serif;
+	padding:40px;
+	border: 20px solid black;
+	margin:40px;
+	box-sizing: border-box;
+
+}
+body{
+background-color:darkgreen;
+}
+header{
+	background-color: palegreen;
+	text-align:center;
+	font-family:"Verdana", sans-serif;
+	padding:40px;
+	border: 20px solid black;
+	margin:40px;
+	box-sizing: border-box;
+}
+section #top{
+	font-style:italic;
+	font-size:100px;
+	color: darkgreen;
+	text-align: center;
+	background-color: palegreen;
+	text-align:center;
+	font-family:"Verdana", sans-serif;
+	padding:40px;
+	border: 20px solid black;
+	margin:40px;
+	box-sizing: content-box;
+}
